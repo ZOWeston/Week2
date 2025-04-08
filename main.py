@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plot
 # set up your lists
-numlist = [2, 10, 4, 3]
-namelist = ['RED', 'GREEN', 'PINK', 'YELLOW']
-colorlist = ['red', 'green', 'pink', 'yellow' ]
-explodelist = [0.1, 0.0, 0.1, 0.0]
+numlist = [2, 4, 10, 8]
+namelist = ['RED', 'GREEN', 'PINKERTON', 'BLUE']
+colorlist = ['red', 'green', 'black', 'yellow' ]
+explodelist = [0.0, 0.0, 0.1, 0.1]
 # make the pie chart
 plot.pie(numlist, labels=namelist, autopct='%.4f%%', colors=colorlist,
     	explode = explodelist, startangle = 180)
