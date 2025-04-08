@@ -3,7 +3,7 @@ import matplotlib.pyplot as plot
 numlist = [2, 10, 4, 3]
 namelist = ['RED', 'GREEN', 'PINK', 'YELLOW']
 colorlist = ['red', 'green', 'pink', 'yellow' ]
-explodelist = [0.1, 0.0, 2.0, 0.0]
+explodelist = [0.1, 0.0, 0.1, 0.0]
 # make the pie chart
 plot.pie(numlist, labels=namelist, autopct='%.2f%%', colors=colorlist,
     	explode = explodelist, startangle = 180)
