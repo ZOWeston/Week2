@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plot
 # set up your lists
-numlist = [8, 6, 5, 3]
-namelist = ['freshmen', 'sophomores', 'juniors', 'seniors']
+numlist = [2, 10, 4, 3]
+namelist = ['RED', 'GREEN', 'PINK', 'YELLOW']
 colorlist = ['red', 'green', 'pink', 'yellow' ]
 explodelist = [0.1, 0.0, 0.0, 0.0]
 # make the pie chart
